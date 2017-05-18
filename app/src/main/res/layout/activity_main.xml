@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zhaoqiang.service.MainActivity"
+    android:orientation="vertical"
+   >
+
+    <Button
+        android:id="@+id/btnstartService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startactivity"/>
+
+    <Button
+        android:id="@+id/btnstoptService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_service"/>
+
+      <Button
+          android:id="@+id/btnsetServiceCountTo100"
+          android:layout_width="match_parent"
+          android:textAllCaps="false"
+          android:layout_height="wrap_content"
+          android:text="@string/set_service_count_100"/>
+
+
+    <Button
+        android:id="@+id/btnBindService"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="@string/bind_service"/>
+
+    <Button
+        android:id="@+id/btnunBindService"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="@string/unbind"/>
+    <Button
+        android:id="@+id/btnSetCountTo100"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_count_100"/>
+    <Button
+        android:id="@+id/get_count_to_100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_count_from_service_bind"/>
+</LinearLayout>

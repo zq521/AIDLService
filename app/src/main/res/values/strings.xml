@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Service</string>
+    <string name="startactivity">启动服务</string>
+    <string name="stop_service">停止服务</string>
+    <string name="set_service_count_100">把count设置为100</string>
+    <string name="bind_service">绑定服务</string>
+    <string name="unbind">解除绑定</string>
+    <string name="btn_count_100">通过绑定器将count设置成100</string>
+    <string name="get_count_from_service_bind">通过绑定器获取绑定服务</string>
+</resources>
