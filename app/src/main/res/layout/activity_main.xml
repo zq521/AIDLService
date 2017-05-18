@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,47 +8,47 @@
    >
 
     <Button
-        android:id="@+id/btnstartService"
+        android:id="@+id/btn_start_service"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/startactivity"/>
+        android:text="@string/start_service"/>
 
     <Button
-        android:id="@+id/btnstoptService"
+        android:id="@+id/btn_stop_service"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/stop_service"/>
 
       <Button
-          android:id="@+id/btnsetServiceCountTo100"
+          android:id="@+id/btn_set_service_count_To_100"
           android:layout_width="match_parent"
           android:textAllCaps="false"
           android:layout_height="wrap_content"
-          android:text="@string/set_service_count_100"/>
+          android:text="@string/service_count_100"/>
 
 
     <Button
-        android:id="@+id/btnBindService"
+        android:id="@+id/btn_bind_service"
         android:layout_width="match_parent"
         android:textAllCaps="false"
         android:layout_height="wrap_content"
         android:text="@string/bind_service"/>
 
     <Button
-        android:id="@+id/btnunBindService"
+        android:id="@+id/btn_unBind_service"
         android:layout_width="match_parent"
         android:textAllCaps="false"
         android:layout_height="wrap_content"
-        android:text="@string/unbind"/>
+        android:text="@string/unbind_service"/>
     <Button
-        android:id="@+id/btnSetCountTo100"
+        android:id="@+id/btn_set_bind_service_count_To_100"
         android:layout_width="match_parent"
         android:textAllCaps="false"
         android:layout_height="wrap_content"
-        android:text="@string/btn_count_100"/>
+        android:text="@string/set_bind_service_count_100"/>
     <Button
-        android:id="@+id/get_count_to_100"
+        android:id="@+id/btn_get_bind_service_count_to_100"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/get_count_from_service_bind"/>
+        android:text="@string/get_bind_service_count_from_service_bind"/>
 </LinearLayout>
